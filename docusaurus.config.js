@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'DCC总站',
+  tagline: '   ',
+  url: 'https://ddlc-start.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -24,13 +24,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/mtr-static-official/dcc-document/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/mtr-static-official/dcc-document/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -43,7 +43,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'DCC总站',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -55,9 +55,9 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '博客', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/mtr-static-official/dcc-document',
             label: 'GitHub',
             position: 'right',
           },
@@ -67,7 +67,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '文档',
             items: [
               {
                 label: 'Tutorial',
@@ -76,24 +76,20 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: '社区',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Monika Forum',
+                href: 'https://forum.monika.love',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'ICU论坛',
+                href: 'https://discuss.ddlc.top',
               },
             ],
           },
           {
-            title: 'More',
+            title: '更多',
             items: [
               {
                 label: 'Blog',
@@ -106,7 +102,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} DCC , Group. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

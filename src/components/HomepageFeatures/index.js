@@ -4,32 +4,30 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '快速上手',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        如果在将来DDLC不幸遭到了更为严重的封锁（如在Steam锁国区等），你可以在这里下载
+        到DDLC本体、汉化、Mods。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '所有站点，集成于此',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        这里将会作为DCC所有站点的整合。
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '对创作者友好',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        只需要进行翻译、创作，作品的散发可以直接交给我们。
       </>
     ),
   },
